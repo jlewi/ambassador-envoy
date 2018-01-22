@@ -1,3 +1,6 @@
 [submodule "envoy"]
 	path = envoy
 	url = https://github.com/lyft/envoy.git
+[submodule "envoy_auth"]
+	path = envoy_auth
+	url = git@github.com:jlewi/proxy.git

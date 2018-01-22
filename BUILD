@@ -13,6 +13,9 @@ envoy_cc_binary(
     deps = [
         ":extauth_config",
         "@envoy//source/exe:envoy_main_lib",
+        "@envoy_auth//src/envoy/auth:http_filter_config",
+        "@envoy_auth//src/envoy/mixer:filter_lib",
+
     ],
 )
 
